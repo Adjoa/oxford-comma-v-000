@@ -8,7 +8,7 @@ def oxford_comma(array)
     array.pop
     array << new_last_item
     return array.join(", ")
-    
+
   # else array.size > 1
   #   last_item = array.last
   #
