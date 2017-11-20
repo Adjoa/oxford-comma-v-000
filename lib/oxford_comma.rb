@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.size == 3
     last_item = array.last
     new_last_item = ["and ", last_item].join
-    array.last = new_last_item
+    array[array.size -1] = new_last_item
     puts array.join(", ")
   # else array.size > 1
   #   last_item = array.last
